@@ -1,0 +1,7 @@
+{
+ "name": "api",
+ "type": "module",
+ "dependencies": {
+  "@discordjs/builders": "^1.8.2"
+ }
+}

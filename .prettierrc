@@ -1,0 +1,18 @@
+{
+ "arrowParens": "avoid",
+ "singleQuote": true,
+ "jsxSingleQuote": true,
+ "printWidth": 200,
+ "tabWidth": 1,
+ "htmlWhitespaceSensitivity": "ignore",
+ "plugins": ["prettier-plugin-pkg"],
+ "overrides": [
+  {
+   "files": ["*.astro"],
+   "options": {
+    "parser": "astro",
+    "plugins": ["prettier-plugin-astro", "prettier-plugin-organize-attributes", "prettier-plugin-tailwindcss"]
+   }
+  }
+ ]
+}

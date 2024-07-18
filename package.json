@@ -1,0 +1,23 @@
+{
+ "name": "everything-ars",
+ "version": "0.0.1",
+ "type": "module",
+ "scripts": {
+  "astro": "astro",
+  "build": "astro check && astro build",
+  "dev": "astro dev",
+  "preview": "astro preview",
+  "start": "astro dev"
+ },
+ "dependencies": {
+  "@astrojs/check": "^0.8.2",
+  "astro": "^4.11.6",
+  "typescript": "^5.5.3"
+ },
+ "devDependencies": {
+  "prettier-plugin-astro": "^0.14.1",
+  "prettier-plugin-organize-attributes": "^1.0.0",
+  "prettier-plugin-pkg": "^0.18.1",
+  "prettier-plugin-tailwindcss": "^0.6.5"
+ }
+}
